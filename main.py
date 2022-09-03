@@ -9,9 +9,9 @@ import os
 PROMISED_DOWN = 450
 PROMISED_UP = 230
 chrome_driver_path = "C:\Development/chromedriver.exe"
-TWITTER_USER = "Anthony29967361"
-TWITTER_EMAIL = "sanitizersmithen2@gmail.com"
-TWITTER_PASSWORD = "nfxHfyFp24ZdCBQ"
+TWITTER_USER = os.environ.get('TWITTER_USER') 
+TWITTER_EMAIL = os.environ.get('TWITTER_EMAIL')
+TWITTER_PASSWORD = os.environ.get('TWITTER_PASSWORD')"
 
 
 class InternetSpeedTwitterBot:
